@@ -1,7 +1,12 @@
 {% extends 'main_base_site.html' %}
 {% load static %}
 {% block main_stylesheets %}
-<link rel="stylesheet" href="{% static 'css/.css' %}">
+<link rel="stylesheet" href="{% static 'css/fonts.css' %}">
+<link rel="stylesheet" href="{% static 'css/framework.css' %}">
+<link rel="stylesheet" href="{% static 'css/grid.css' %}">
+<link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
 {% endblock %}
 {% block custom_stylesheets %}
 <style media="screen">
@@ -21,7 +26,8 @@
 
 {% endblock %}
 {% block main_scripts %}
-<script src="{% static 'js/.js' %}" charset="utf-8"></script>
+<script src="{% static 'js/jquery-2.2.2.js' %}" charset="utf-8"></script>
+<script src="{% static 'js/common.js' %}" charset="utf-8"></script>
 {% endblock %}
 {% block custom_scripts %}
 <script type="text/javascript">
